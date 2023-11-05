@@ -11,9 +11,10 @@ spec:
     image: nginx
     ports: 
     - containerPort: 80
+      protocal: TCP
   
-  containers: 
   - name: http-container
     image: http
     ports:
-    - containerPort: 80
+    - containerPort: 8080
+      protocal: TCP
