@@ -13,8 +13,4 @@ spec:
     - containerPort: 80
       protocal: TCP
   
-  - name: http-container
-    image: http
-    ports:
-    - containerPort: 8080
-      protocal: TCP
+  
